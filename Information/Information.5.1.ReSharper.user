@@ -1,0 +1,419 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="F1AEF968-6C81-46BA-ADC2-7B20C596131B/f:Department_Wise_Information.cs" caret="969" fromTop="23" />
+      <File id="F1AEF968-6C81-46BA-ADC2-7B20C596131B/f:DepartmentWiseReportFrom.cs" caret="840" fromTop="25" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="F1AEF968-6C81-46BA-ADC2-7B20C596131B/f:Department_Wise_Information.cs" caret="971" fromTop="24" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="Motherfrom`0" priority="9" />
+      <Item value="var" priority="89" />
+      <Item value="new" priority="77" />
+      <Item value="addinformation`0" priority="1" />
+      <Item value="obj" priority="16" />
+      <Item value="AddDepartment`0" priority="3" />
+      <Item value="PathfinderEntities`0" priority="22" />
+      <Item value="pathobj" priority="0" />
+      <Item value="Information`0" priority="0" />
+      <Item value="pathfinderobj" priority="13" />
+      <Item value="objinformation" priority="15" />
+      <Item value="Convert`0" priority="19" />
+      <Item value="txtId" priority="7" />
+      <Item value="txtName" priority="4" />
+      <Item value="txtFather" priority="1" />
+      <Item value="txtAddress" priority="1" />
+      <Item value="txtGurden" priority="1" />
+      <Item value="txtNationality" priority="2" />
+      <Item value="txtPhone" priority="1" />
+      <Item value="dtpDathOfBirth" priority="2" />
+      <Item value="DateTime`0" priority="0" />
+      <Item value="InformationManager`0" priority="15" />
+      <Item value="public" priority="11" />
+      <Item value="List" priority="9" />
+      <Item value="DepartmentID`0" priority="2" />
+      <Item value="from" priority="4" />
+      <Item value="context" priority="8" />
+      <Item value="select" priority="4" />
+      <Item value="dep" priority="0" />
+      <Item value="return" priority="8" />
+      <Item value="q" priority="8" />
+      <Item value="cbxDepartment" priority="11" />
+      <Item value="cbxShift" priority="5" />
+      <Item value="list" priority="13" />
+      <Item value="GenderId`0" priority="1" />
+      <Item value="gen" priority="0" />
+      <Item value="SemesterID`0" priority="0" />
+      <Item value="sem" priority="0" />
+      <Item value="cbxGender" priority="5" />
+      <Item value="cbxSemester" priority="4" />
+      <Item value="cbxReligion" priority="4" />
+      <Item value="ReligionID`0" priority="1" />
+      <Item value="rel" priority="0" />
+      <Item value="ShiftID`0" priority="1" />
+      <Item value="shi" priority="0" />
+      <Item value="MessageBox`0" priority="24" />
+      <Item value="SP_GRIDVIEW_Result`0" priority="1" />
+      <Item value="datagridinformation" priority="0" />
+      <Item value="x" priority="0" />
+      <Item value="int" priority="7" />
+      <Item value="txtScarch" priority="1" />
+      <Item value="info" priority="17" />
+      <Item value="txtGurdenPhone" priority="0" />
+      <Item value="components" priority="0" />
+      <Item value="FillGrid`0" priority="3" />
+      <Item value="string" priority="7" />
+      <Item value="ClearTxtbox`0" priority="3" />
+      <Item value="try" priority="11" />
+      <Item value="d" priority="3" />
+      <Item value="txtDepartmentName" priority="1" />
+      <Item value="m" priority="10" />
+      <Item value="catch" priority="2" />
+      <Item value="Exception`0" priority="2" />
+      <Item value="Add_Gender`0" priority="1" />
+      <Item value="g" priority="3" />
+      <Item value="Add_Religion`0" priority="0" />
+      <Item value="EnvironmentVariableTarget`0" priority="1" />
+      <Item value="r" priority="2" />
+      <Item value="txtReligionId" priority="1" />
+      <Item value="txtReligionName" priority="1" />
+      <Item value="SaveFileDialog`0" priority="0" />
+      <Item value="Add_Shift`0" priority="1" />
+      <Item value="s" priority="1" />
+      <Item value="txtShiftId" priority="1" />
+      <Item value="txtShiftName" priority="1" />
+      <Item value="Department_Wise_Information`0" priority="1" />
+      <Item value="mngr" priority="1" />
+      <Item value="DepartmentGrid" priority="2" />
+      <Item value="txtStudentId" priority="1" />
+      <Item value="smngr" priority="0" />
+      <Item value="SP_DepartmentWiseInformation_Result`0" priority="0" />
+      <Item value="sId" priority="1" />
+      <Item value="dId" priority="1" />
+      <Item value="sid" priority="0" />
+      <Item value="did" priority="0" />
+      <Item value="ShiftInfo`0" priority="1" />
+      <Item value="Religion`0" priority="1" />
+      <Item value="GendarInfo`0" priority="1" />
+      <Item value="DepartmentInfo`0" priority="3" />
+      <Item value="dlist" priority="2" />
+      <Item value="DataGridViewPaintParts`0" priority="0" />
+      <Item value="Print" priority="9" />
+      <Item value="DGVPrinterHelper" priority="0" />
+      <Item value="true" priority="0" />
+      <Item value="false" priority="1" />
+      <Item value="StringAlignment`0" priority="2" />
+      <Item value="NewUser`0" priority="3" />
+      <Item value="ur" priority="0" />
+      <Item value="us" priority="10" />
+      <Item value="txtUsername" priority="11" />
+      <Item value="NestedContainer`0" priority="0" />
+      <Item value="txtPassword" priority="7" />
+      <Item value="S_Login`0" priority="1" />
+      <Item value="contxt" priority="1" />
+      <Item value="foreach" priority="3" />
+      <Item value="in" priority="2" />
+      <Item value="objpath" priority="1" />
+      <Item value="if" priority="4" />
+      <Item value="user" priority="3" />
+      <Item value="else" priority="2" />
+      <Item value="LoginFrom`0" priority="1" />
+      <Item value="st" priority="1" />
+      <Item value="DepartmetnName" priority="0" />
+      <Item value="SP_LOGINUSERNAME_Result`0" priority="0" />
+      <Item value="datagridNewUser" priority="0" />
+      <Item value="SP_DEPARTMENTINFONAME_Result`0" priority="0" />
+      <Item value="datagridDepartmentfName" priority="0" />
+      <Item value="this" priority="15" />
+      <Item value="txtuserName" priority="0" />
+      <Item value="addinformation" priority="0" />
+      <Item value="BringToFront`0" priority="0" />
+      <Item value="nextfrom" priority="2" />
+      <Item value="Motherfrom" priority="0" />
+      <Item value="departmentWiseInformationToolStripMenuItem" priority="0" />
+      <Item value="Department_Wise_Information" priority="0" />
+      <Item value="DepartmentWiseReportFrom`0" priority="0" />
+      <Item value="rpt_Report`0" priority="0" />
+      <Item value="rpt" priority="4" />
+      <Item value="rpt_InformationReport`0" priority="0" />
+      <Item value="ReportViewer`0" priority="4" />
+      <Item value="private" priority="0" />
+      <Item value="report" priority="2" />
+      <Item value="Screen`0" priority="1" />
+      <Item value="Point" priority="0" />
+      <Item value="Size" priority="0" />
+      <Item value="w" priority="0" />
+      <Item value="BackupFrom`0" priority="0" />
+      <Item value="progressBar1" priority="0" />
+      <Item value="ex" priority="0" />
+      <Item value="MessageBoxButtons`0" priority="0" />
+      <Item value="MessageBoxIcon`0" priority="0" />
+      <Item value="using" priority="0" />
+      <Item value="System" priority="0" />
+      <Item value="Data" priority="0" />
+      <Item value="SqlClient" priority="0" />
+      <Item value="SqlConnection`0" priority="0" />
+      <Item value="SqlConnection" priority="0" />
+      <Item value="WindowsFormsSection`0" priority="1" />
+      <Item value="WindowsFormsSynchronizationContext`0" priority="0" />
+      <Item value="Windows" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Information.addinformation">
+      <Item value="ShowDialog`0" priority="1" />
+      <Item value="Close`0" priority="0" />
+      <Item value="Controls" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Information.AddDepartment">
+      <Item value="ShowDialog`0" priority="1" />
+      <Item value="Close`0" priority="1" />
+      <Item value="Hide`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Information.PathfinderEntities">
+      <Item value="Information" priority="2" />
+      <Item value="DepartmentIDs" priority="0" />
+      <Item value="GenderIds" priority="0" />
+      <Item value="SemesterIDs" priority="0" />
+      <Item value="ReligionIDs" priority="0" />
+      <Item value="ShiftIDs" priority="0" />
+      <Item value="AddToInformation`0" priority="2" />
+      <Item value="SaveChanges`0" priority="10" />
+      <Item value="SP_GRIDVIEW`0" priority="0" />
+      <Item value="DeleteObject`0" priority="1" />
+      <Item value="AddToDepartmentIDs`0" priority="0" />
+      <Item value="AddToGenderIds`0" priority="0" />
+      <Item value="AddToReligionIDs`0" priority="0" />
+      <Item value="AddToShiftIDs`0" priority="0" />
+      <Item value="SP_DepartmentWiseInformation`0" priority="0" />
+      <Item value="ShiftInfoes" priority="0" />
+      <Item value="SemesterInfoes" priority="0" />
+      <Item value="GendarInfoes" priority="2" />
+      <Item value="DepartmentInfoes" priority="0" />
+      <Item value="AddToShiftInfoes`0" priority="0" />
+      <Item value="AddToReligions`0" priority="0" />
+      <Item value="AddToGendarInfoes`0" priority="0" />
+      <Item value="AddToDepartmentInfoes`0" priority="0" />
+      <Item value="AddToS_Login`0" priority="0" />
+      <Item value="S_Login" priority="2" />
+      <Item value="SP_LOGINUSERNAME`0" priority="0" />
+      <Item value="SP_DEPARTMENTINFONAME`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Information.Information">
+      <Item value="Id" priority="3" />
+      <Item value="Name" priority="2" />
+      <Item value="FatherName" priority="1" />
+      <Item value="Address" priority="1" />
+      <Item value="Gurden_phone" priority="2" />
+      <Item value="Nationality" priority="1" />
+      <Item value="Phone" priority="1" />
+      <Item value="DepartmentId" priority="2" />
+      <Item value="SemesterID" priority="1" />
+      <Item value="GenderId" priority="1" />
+      <Item value="ReligionID" priority="1" />
+      <Item value="ShiftId" priority="1" />
+      <Item value="DateofBirth" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToInt32`0" priority="17" />
+      <Item value="ToDateTime`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
+      <Item value="Text" priority="49" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Trim`0" priority="32" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DateTimePicker">
+      <Item value="Value" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IQueryable`1">
+      <Item value="ToList`1" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox">
+      <Item value="DisplayMember" priority="5" />
+      <Item value="ValueMember" priority="5" />
+      <Item value="DataSource" priority="6" />
+      <Item value="Text" priority="0" />
+      <Item value="SelectedValue" priority="11" />
+      <Item value="Items" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBox">
+      <Item value="Show`0" priority="23" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.ObjectResult`1">
+      <Item value="ToList`1" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.DataGridView">
+      <Item value="DataSource" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Data.Objects.ObjectSet`1">
+      <Item value="ToList`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Where`1" priority="0" />
+      <Item value="Add`0" priority="0" />
+      <Item value="AddRange`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int32">
+      <Item value="Parse`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="FirstOrDefault`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="ToString`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Empty" priority="6" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Information.DepartmentID">
+      <Item value="Id" priority="0" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Information.Add_Gender">
+      <Item value="ShowDialog`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Information.GenderId">
+      <Item value="Id" priority="0" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Information.Add_Religion">
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Information.ReligionID">
+      <Item value="Id" priority="1" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Information.Add_Shift">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Information.ShiftID">
+      <Item value="Id" priority="0" />
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Information.Department_Wise_Information">
+      <Item value="ShowDialog`0" priority="1" />
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Information.InformationManager">
+      <Item value="GettAllInformation`0" priority="0" />
+      <Item value="GettAllDepartment`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Information.DepartmentInfo">
+      <Item value="DepartmentName" priority="1" />
+      <Item value="Id" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DGVPrinterHelper.DGVPrinter">
+      <Item value="Title" priority="0" />
+      <Item value="SubTitle" priority="0" />
+      <Item value="PageNumbers" priority="0" />
+      <Item value="PageNumberInHeader" priority="0" />
+      <Item value="PorportionalColumns" priority="0" />
+      <Item value="HeaderCellAlignment" priority="0" />
+      <Item value="Footer" priority="0" />
+      <Item value="FooterSpacing" priority="0" />
+      <Item value="PrintPreviewDataGridView`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.StringAlignment">
+      <Item value="Near" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Information.NewUser">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="txtUsername" priority="5" />
+      <Item value="btnAddNewUser" priority="3" />
+      <Item value="txtPassword" priority="0" />
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Information.S_Login">
+      <Item value="UserName" priority="2" />
+      <Item value="Password" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Information.Motherfrom">
+      <Item value="ShowDialog`0" priority="3" />
+      <Item value="Hide`0" priority="2" />
+      <Item value="Close`0" priority="2" />
+      <Item value="Location" priority="0" />
+      <Item value="Size" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ComboBox+ObjectCollection">
+      <Item value="Add`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Information.LoginFrom">
+      <Item value="Close`0" priority="1" />
+      <Item value="Hide`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Information.DepartmentWiseReportFrom">
+      <Item value="ShowDialog`0" priority="0" />
+      <Item value="Close`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Information.rpt_InformationReport">
+      <Item value="SetParameterValue`0" priority="1" />
+      <Item value="DataSourceConnections" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CrystalDecisions.Windows.Forms.CrystalReportViewer">
+      <Item value="Show`0" priority="4" />
+      <Item value="ReportSource" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CrystalDecisions.Shared.DataSourceConnections">
+      <Item value="Clear`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Information.ReportViewer">
+      <Item value="crystalReportViewer1" priority="0" />
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.Screen">
+      <Item value="PrimaryScreen" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.Screen">
+      <Item value="Bounds" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Drawing.Rectangle">
+      <Item value="Width" priority="0" />
+      <Item value="Height" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Information.BackupFrom">
+      <Item value="ShowDialog`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Forms.ProgressBar">
+      <Item value="Validated" priority="0" />
+      <Item value="Value" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBoxButtons">
+      <Item value="OK" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Windows.Forms.MessageBoxIcon">
+      <Item value="Error" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

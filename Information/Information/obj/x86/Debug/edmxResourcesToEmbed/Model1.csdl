@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PathfinderModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="PathfinderEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="SP_GRIDVIEW" ReturnType="Collection(PathfinderModel.SP_GRIDVIEW_Result)" />
+    <FunctionImport Name="SP_DepartmentWiseInformation" ReturnType="Collection(PathfinderModel.SP_DepartmentWiseInformation_Result)">
+      <Parameter Name="IID" Mode="In" Type="Int32" />
+      <Parameter Name="DID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <EntitySet Name="DepartmentInfoes" EntityType="PathfinderModel.DepartmentInfo" />
+    <EntitySet Name="GendarInfoes" EntityType="PathfinderModel.GendarInfo" />
+    <EntitySet Name="Information" EntityType="PathfinderModel.Information" />
+    <EntitySet Name="Religions" EntityType="PathfinderModel.Religion" />
+    <EntitySet Name="S_Login" EntityType="PathfinderModel.S_Login" />
+    <EntitySet Name="SemesterInfoes" EntityType="PathfinderModel.SemesterInfo" />
+    <EntitySet Name="ShiftInfoes" EntityType="PathfinderModel.ShiftInfo" />
+    <EntitySet Name="sysdiagrams" EntityType="PathfinderModel.sysdiagram" />
+    <AssociationSet Name="FK_Information_DepartmentID" Association="PathfinderModel.FK_Information_DepartmentID">
+      <End Role="DepartmentInfo" EntitySet="DepartmentInfoes" />
+      <End Role="Information" EntitySet="Information" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Information_GenderId" Association="PathfinderModel.FK_Information_GenderId">
+      <End Role="GendarInfo" EntitySet="GendarInfoes" />
+      <End Role="Information" EntitySet="Information" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Information_ReligionID" Association="PathfinderModel.FK_Information_ReligionID">
+      <End Role="Religion" EntitySet="Religions" />
+      <End Role="Information" EntitySet="Information" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Information_SemesterID" Association="PathfinderModel.FK_Information_SemesterID">
+      <End Role="SemesterInfo" EntitySet="SemesterInfoes" />
+      <End Role="Information" EntitySet="Information" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Information_ShiftID" Association="PathfinderModel.FK_Information_ShiftID">
+      <End Role="ShiftInfo" EntitySet="ShiftInfoes" />
+      <End Role="Information" EntitySet="Information" />
+    </AssociationSet>
+    <FunctionImport Name="SP_DEPARTMENTINFONAME" ReturnType="Collection(PathfinderModel.SP_DEPARTMENTINFONAME_Result)" />
+    <FunctionImport Name="SP_LOGINUSERNAME" ReturnType="Collection(PathfinderModel.SP_LOGINUSERNAME_Result)" />
+  </EntityContainer>
+  <ComplexType Name="SP_GRIDVIEW_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Address" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="DateofBirth" Nullable="true" />
+    <Property Type="String" Name="Gender" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="Shift" Nullable="false" MaxLength="13" />
+    <Property Type="Int32" Name="DepartmentId" Nullable="true" />
+    <Property Type="Int32" Name="GenderId" Nullable="true" />
+    <Property Type="Int32" Name="ReligionID" Nullable="true" />
+    <Property Type="String" Name="Nationality" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="Phone" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="SP_DepartmentWiseInformation_Result">
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="50" />
+    <Property Type="DateTime" Name="DateofBirth" Nullable="true" />
+    <Property Type="String" Name="Address" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Nationality" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Gemder" Nullable="false" MaxLength="6" />
+    <Property Type="String" Name="Semester" Nullable="false" MaxLength="16" />
+    <Property Type="String" Name="Shift" Nullable="false" MaxLength="13" />
+    <Property Type="String" Name="DepartmentName" Nullable="true" MaxLength="50" />
+    <Property Type="Int32" Name="Phone" Nullable="true" />
+  </ComplexType>
+  <EntityType Name="DepartmentInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="DepartmentName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Information" Relationship="PathfinderModel.FK_Information_DepartmentID" FromRole="DepartmentInfo" ToRole="Information" />
+  </EntityType>
+  <EntityType Name="GendarInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Name" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Information" Relationship="PathfinderModel.FK_Information_GenderId" FromRole="GendarInfo" ToRole="Information" />
+  </EntityType>
+  <EntityType Name="Information">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Name" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="FatherName" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="Gurden_phone" />
+    <Property Type="String" Name="Address" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="DateTime" Name="DateofBirth" />
+    <Property Type="String" Name="Nationality" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="Int32" Name="ReligionID" />
+    <Property Type="Int32" Name="SemesterID" />
+    <Property Type="Int32" Name="ShiftId" />
+    <Property Type="Int32" Name="GenderId" />
+    <Property Type="Int32" Name="DepartmentId" />
+    <Property Type="Int32" Name="Phone" />
+    <NavigationProperty Name="DepartmentInfo" Relationship="PathfinderModel.FK_Information_DepartmentID" FromRole="Information" ToRole="DepartmentInfo" />
+    <NavigationProperty Name="GendarInfo" Relationship="PathfinderModel.FK_Information_GenderId" FromRole="Information" ToRole="GendarInfo" />
+    <NavigationProperty Name="Religion" Relationship="PathfinderModel.FK_Information_ReligionID" FromRole="Information" ToRole="Religion" />
+    <NavigationProperty Name="SemesterInfo" Relationship="PathfinderModel.FK_Information_SemesterID" FromRole="Information" ToRole="SemesterInfo" />
+    <NavigationProperty Name="ShiftInfo" Relationship="PathfinderModel.FK_Information_ShiftID" FromRole="Information" ToRole="ShiftInfo" />
+  </EntityType>
+  <EntityType Name="Religion">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Name" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Information" Relationship="PathfinderModel.FK_Information_ReligionID" FromRole="Religion" ToRole="Information" />
+  </EntityType>
+  <EntityType Name="S_Login">
+    <Key>
+      <PropertyRef Name="UserName" />
+    </Key>
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Type="String" Name="Password" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="SemesterInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Name" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Information" Relationship="PathfinderModel.FK_Information_SemesterID" FromRole="SemesterInfo" ToRole="Information" />
+  </EntityType>
+  <EntityType Name="ShiftInfo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" />
+    <Property Type="String" Name="Name" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Information" Relationship="PathfinderModel.FK_Information_ShiftID" FromRole="ShiftInfo" ToRole="Information" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Type="String" Name="name" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="principal_id" Nullable="false" />
+    <Property Type="Int32" Name="diagram_id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="Int32" Name="version" />
+    <Property Type="Binary" Name="definition" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Information_DepartmentID">
+    <End Type="PathfinderModel.DepartmentInfo" Role="DepartmentInfo" Multiplicity="0..1" />
+    <End Type="PathfinderModel.Information" Role="Information" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DepartmentInfo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Information">
+        <PropertyRef Name="DepartmentId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Information_GenderId">
+    <End Type="PathfinderModel.GendarInfo" Role="GendarInfo" Multiplicity="0..1" />
+    <End Type="PathfinderModel.Information" Role="Information" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GendarInfo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Information">
+        <PropertyRef Name="GenderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Information_ReligionID">
+    <End Type="PathfinderModel.Religion" Role="Religion" Multiplicity="0..1" />
+    <End Type="PathfinderModel.Information" Role="Information" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Religion">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Information">
+        <PropertyRef Name="ReligionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Information_SemesterID">
+    <End Type="PathfinderModel.SemesterInfo" Role="SemesterInfo" Multiplicity="0..1" />
+    <End Type="PathfinderModel.Information" Role="Information" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SemesterInfo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Information">
+        <PropertyRef Name="SemesterID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Information_ShiftID">
+    <End Type="PathfinderModel.ShiftInfo" Role="ShiftInfo" Multiplicity="0..1" />
+    <End Type="PathfinderModel.Information" Role="Information" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ShiftInfo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Information">
+        <PropertyRef Name="ShiftId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="SP_DEPARTMENTINFONAME_Result">
+    <Property Type="String" Name="DepartmentName" Nullable="true" MaxLength="50" />
+  </ComplexType>
+  <ComplexType Name="SP_LOGINUSERNAME_Result">
+    <Property Type="String" Name="UserName" Nullable="false" MaxLength="50" />
+  </ComplexType>
+</Schema>
